@@ -81,10 +81,6 @@ TABLES = (
             MetricEntry(METRICS['inter_event_time_crps_days'], 'Timestamp suffix CRPS'),
             MetricEntry(METRICS['remaining_time_crps_days'], 'Remaining time CRPS'),
         ),
-        column_groups=(
-            ColumnGroup('Activity suffix', 4),
-            ColumnGroup('Scalar outputs', 3),
-        ),
     ),
     # Calibration gaps at three central-interval levels.
     Table(
